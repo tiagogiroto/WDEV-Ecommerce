@@ -1,3 +1,6 @@
-CRIAÇÃO DE COMPONENTES INICIO
+CRIAï¿½ï¿½O DE COMPONENTES INICIO
 
-ng generate component botao --spec=false
+ng generate component 'nome' --spec=false
+
+ng serve 
+

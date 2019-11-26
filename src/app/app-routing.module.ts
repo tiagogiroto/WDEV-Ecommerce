@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },  {
+    // pagina inicial home
+    path: '',
+    component: HomeComponent
   }
 ];
 
