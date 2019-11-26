@@ -1,0 +1,3 @@
+CRIAÇÃO DE COMPONENTES INICIO
+
+ng generate component botao --spec=false
