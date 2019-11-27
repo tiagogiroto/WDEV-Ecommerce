@@ -1,6 +1,16 @@
-CRIA��O DE COMPONENTES INICIO
+﻿CRIA��O DE COMPONENTES INICIO
 
 ng generate component 'nome' --spec=false
 
 ng serve 
 
+--------------------------
+
+para adicionar um componente no angular
+
+ex: colcoar dentro do module.ts ,
+MatButtonModule,
+
+import {MatButtonModule} from '@angular/material/button';
+
+após isso colocar a tag desejada.

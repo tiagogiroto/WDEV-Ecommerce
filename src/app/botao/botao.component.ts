@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-botao',
@@ -8,11 +9,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class BotaoComponent implements OnInit {
 
 
-  @Input() usuarios: Array<any>;
+  public texto:string
 
   constructor() { }
 
   ngOnInit() {
+    this.texto = 'Olá, componente aqui!'
+  }
+
+  clickou(){
+    this.texto = "JOÃO É GAY"
   }
 
 }

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LancamentosComponent } from './lancamentos/lancamentos.component';
 import { HomeComponent } from './home/home.component';
 import { BotaoComponent } from './botao/botao.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LancamentosComponent,
     HomeComponent,
-    BotaoComponent
+    BotaoComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
