@@ -1,0 +1,38 @@
+
+<head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Produtos</h2>
+    
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Imagem</th>
+      </tr>
+      <tr *ngFor="let produto of produtos">
+        <td>{{produto.descricao}}</td>
+        <td>R$ {{produto.valor | number: '.2'}}</td>
+        <td id='imagem'><img src="{{produto.imagem}}"></td>
+      </tr>
+    </table>
+    
+    </body>

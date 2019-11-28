@@ -10,6 +10,7 @@ export class LancamentosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }

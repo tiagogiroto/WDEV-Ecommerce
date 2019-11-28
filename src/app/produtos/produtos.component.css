@@ -1,0 +1,11 @@
+#imagem img{
+    width: 7vw;
+    height: 10vh;
+}
+
+@media(max-width: 764px) {
+    #imagem img{
+        width: 16vw;
+        height: 10vh;
+    }
+  }

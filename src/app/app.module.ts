@@ -7,6 +7,7 @@ import { LancamentosComponent } from './lancamentos/lancamentos.component';
 import { HomeComponent } from './home/home.component';
 import { BotaoComponent } from './botao/botao.component';
 import { TableComponent } from './table/table.component';
+import { ProdutosComponent } from './produtos/produtos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TableComponent } from './table/table.component';
     LancamentosComponent,
     HomeComponent,
     BotaoComponent,
-    TableComponent
+    TableComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
